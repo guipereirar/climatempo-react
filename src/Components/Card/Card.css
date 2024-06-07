@@ -1,0 +1,11 @@
+.diaTemp {
+  background-color: rgb(217, 217, 217);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 5%;
+  padding: 40px;
+  box-sizing: content-box;
+  font-size: 11px;
+}
