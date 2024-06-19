@@ -37,7 +37,7 @@ function App() {
       .then((dadoTemperatura) => {
         // console.log(temperatura);
         setDescricao(dadoTemperatura.weather[0].description);
-        setStateTemperatura(dadoTemperatura.main.temp);
+        setStateTemperatura(Math.round(dadoTemperatura.main.temp));
       })
       .catch(() => {
         alert("Cidade não encontrada");
